@@ -1,3 +1,4 @@
+/* Base Styles */
 *, *::before, *::after {
     box-sizing: border-box;
     margin: 0;
@@ -25,6 +26,8 @@ body {
     font-style: normal;
     font-size: 20px;
     padding: 50px;
+    margin: 0; /* Add margin reset */
+    overflow-x: hidden; /* Prevent horizontal scrolling */
 }
 
 a {
@@ -37,8 +40,7 @@ a:hover {
 }
 
 header {
-    padding-top: 10px;
-    padding-bottom: 10px;
+    padding: 10px 0;
     display: flex;
     justify-content: space-between;
     max-width: 1440px;
@@ -181,7 +183,7 @@ header nav .mobile-toggle {
 
 .button.orange:hover {
     background-color: var(--base-100);
-    color: var(--base);
+    color: var (--base);
 }
 
 h1 {
@@ -396,6 +398,12 @@ h2 small {
     margin-bottom: 20px;
 }
 
+@media (max-width: 768px) {
+    .skills .holder-blue {
+        padding: 40px; /* Increase padding for mobile */
+    }
+}
+
 .work-experience .jobs {
     display: grid;
     gap: 30px;
@@ -469,6 +477,12 @@ h2 small {
 
 .work-experience .jobs article figure:hover img {
     transform: scale(1.2);
+}
+
+@media (max-width: 768px) {
+    .work-experience .jobs article {
+        padding: 40px; /* Increase padding for mobile */
+    }
 }
 
 .bento .bento-grid {
