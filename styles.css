@@ -279,6 +279,7 @@ h1 small {
         justify-content: center;
         display: flex;
         flex-direction: column;
+        max-width: auto;
     }
 
     .hero-blue {
@@ -287,6 +288,7 @@ h1 small {
         justify-content: center;
         display: flex;
         flex-direction: column;
+        max-width: auto;
     }
 
     .hero-yellow {
@@ -295,6 +297,7 @@ h1 small {
         justify-content: center;
         display: flex;
         flex-direction: column;
+        max-width: auto;
     }
 
     .call-to-action {
@@ -304,6 +307,7 @@ h1 small {
         justify-content: center;
         display: flex;
         flex-direction: column;
+        max-width: auto;
     }
 }
 
