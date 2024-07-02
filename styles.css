@@ -279,7 +279,7 @@ h1 small {
         justify-content: center;
         display: flex;
         flex-direction: column;
-        max-width: 100%;
+        width: fit-content;
         margin-left: -35px;
     }
 
@@ -289,7 +289,8 @@ h1 small {
         justify-content: center;
         display: flex;
         flex-direction: column;
-        max-width: 100%;
+        max-width: auto;
+        width: fit-content;
         margin-left: -35px;
     }
 
@@ -299,7 +300,8 @@ h1 small {
         justify-content: center;
         display: flex;
         flex-direction: column;
-        max-width: 100%;
+        max-width: auto;
+        width: fit-content;
         margin-left: -35px;
     }
 
@@ -310,7 +312,8 @@ h1 small {
         justify-content: center;
         display: flex;
         flex-direction: column;
-        max-width: 100%;
+        max-width: auto;
+        width: fit-content;
         margin-left: -35px;
     }
 }
@@ -329,7 +332,8 @@ h1 small {
         justify-content: center;
         display: flex;
         flex-direction: column;
-        max-width: 100%;
+        max-width: auto;
+        width: fit-content;
         margin-left: -80px;
     }
 }
@@ -398,7 +402,8 @@ h2 small {
         justify-content: center;
         display: flex;
         flex-direction: column;
-        max-width: 100%;
+        max-width:fit-content;
+        
         margin-left: -40px;
     }
 }
@@ -449,7 +454,8 @@ h2 small {
         justify-content: center;
         display: flex;
         flex-direction: column;
-        max-width: 100%;
+        max-width:fit-content;
+        
         margin-left: -40px;
     }
 }
