@@ -280,7 +280,7 @@ h1 small {
         display: flex;
         flex-direction: column;
         width: fit-content;
-        margin-left: -40px;
+        margin-left: -35px;
     }
 
     .hero-blue {
@@ -291,7 +291,7 @@ h1 small {
         flex-direction: column;
         max-width: auto;
         width: fit-content;
-        margin-left: -40px;
+        margin-left: -35px;
     }
 
     .hero-yellow {
@@ -302,8 +302,8 @@ h1 small {
         flex-direction: column;
         max-width: auto;
         width: fit-content;
-        margin-left: -40px;
-        height: 10px;
+        margin-left: -35px;
+        height: 160px;
     }
 
     .call-to-action {
@@ -315,8 +315,7 @@ h1 small {
         flex-direction: column;
         max-width: auto;
         width: fit-content;
-        margin-left: -40px;
-        padding: 10px 20px;
+        margin-left: -35px;
     }
 }
 
@@ -336,7 +335,7 @@ h1 small {
         flex-direction: column;
         max-width: auto;
         width: fit-content;
-        margin-left: -40px;
+        margin-left: -80px;
     }
 }
 
@@ -404,8 +403,8 @@ h2 small {
         justify-content: center;
         display: flex;
         flex-direction: column;
-        max-width: auto;
-        width: fit-content;
+        max-width:fit-content;
+        
         margin-left: -40px;
     }
 }
@@ -456,8 +455,8 @@ h2 small {
         justify-content: center;
         display: flex;
         flex-direction: column;
-        max-width: auto;
-        width: fit-content;
+        max-width:fit-content;
+        
         margin-left: -40px;
     }
 }
@@ -550,7 +549,6 @@ h2 small {
         display: flex;
         flex-direction: column;
         max-width: auto;
-        width: fit-content;
         margin-left: -40px;
     }
 }
