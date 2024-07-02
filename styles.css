@@ -303,7 +303,6 @@ h1 small {
         max-width: auto;
         width: fit-content;
         margin-left: -35px;
-        height: 160px;
     }
 
     .call-to-action {
@@ -403,8 +402,7 @@ h2 small {
         justify-content: center;
         display: flex;
         flex-direction: column;
-        max-width:fit-content;
-        
+        width: 100%;
         margin-left: -40px;
     }
 }
@@ -455,8 +453,7 @@ h2 small {
         justify-content: center;
         display: flex;
         flex-direction: column;
-        max-width:fit-content;
-        
+        width: 100%;
         margin-left: -40px;
     }
 }
